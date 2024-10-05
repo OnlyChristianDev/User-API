@@ -8,7 +8,7 @@ const Usuarios = () => {
 
    
     useEffect(() => {
-        setTimeout( async () => {
+        const fetchData = async () => {
             try {
               const response = await axios.get('https://jsonplaceholder.typicode.com/users');
               Setusuarios(response.data) 
@@ -18,8 +18,9 @@ const Usuarios = () => {
         
             finally{setLoading(false)}
            
-        }, 1000)
+        }
 
+        fetchData()
     },[])
 
     if(loading){
