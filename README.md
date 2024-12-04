@@ -1,8 +1,14 @@
-# React + Vite
+User API Client
+Um projeto simples que consome a User API para obter e exibir dados de usuários.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎯 Objetivo
+O objetivo deste projeto é demonstrar como consumir dados de uma API REST e retorná-los de forma clara e organizada.
 
-Currently, two official plugins are available:
+🛠️ Tecnologias Utilizadas
+Node.js: Ambiente de execução para JavaScript.
+Express: Framework minimalista para criar o servidor.
+Axios: Para realizar chamadas HTTP de forma simples e eficiente.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Funcionalidades
+Listar Usuários: Recupera e exibe dados de usuários da API User API.
+Endpoints Simples: Implementação leve e direta.
